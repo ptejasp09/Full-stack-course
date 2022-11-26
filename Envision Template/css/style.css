@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+header h1{
+    color: skyblue;
+    margin: 10px 0px 0px 100px;
+}
+header ul{
+    margin: 20px 100px 0px 0px;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: blue;
+    padding: 4px 15px;
+        border-radius: 25px ;
+
+}
+header ul li a:hover{
+    background-color: rgb(42, 195, 255);
+    color: white;
+}
+.herosection{
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100% 100%;
+    padding: 200px 250px 300px 250px;
+    color: white;
+    text-align: center;
+}
+.herosection h2{
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+.course{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.course div{
+    margin: 15px;
+    padding: 10px;
+}

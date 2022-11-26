@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer{
+    height: 60px;
+    color: black;
+}
+header img{
+    margin: 12px 0px 0px 40px;
+}
+header h3{
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+header ul{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.hero{
+    background-image: url(../images/Mask\ Group\ 1.png);
+    background-size: 100% 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 250px 10px 250px;
+}
+.hero h1{
+    font-size: 100px;
+    text-shadow: 2px 2px 4px #000000;
+    /* padding-bottom: 10px; */
+}
+.hero .d1{
+    border-top: 3px solid #15A4FA;
+    padding-top: 5px;
+    width: 420px;
+    /* margin-left: 300px; */
+    margin: 10px auto;
+}
+.hero .call{
+    width: 130px;
+    margin: 50px auto 150px auto;
+    padding: 8px 13px;
+    border: 2px solid #15A4FA;
+}
+.hero .call a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.fa-chevron-down{
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+.main{
+    padding: 40px 40px 60px 40px;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+.main h3{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.navigation{
+    position: fixed;
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+    right: 40px;
+    bottom: 190px;
+    padding: 7px 0px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #15A4FA;
+    z-index: 1;
+}
+.information{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 0px 150px 0px 150px;
+}
+.info{
+    width: 25%;
+    margin: 5px 0px 50px 70px;
+    display: inline-block;
+    text-align: center;
+}
+.icon{
+    width: 55px;
+    padding: 18px;
+    margin: 30px auto 10px auto;
+    background-color: #15A4FA;
+}
+.fa-mobile-alt, .fa-paper-plane, .fa-icons{
+    font-size: 60px;
+    color: #ffffff;
+    background-color: #15A4FA;
+}
+.photo{
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    background-color: #D9D9D9;
+}
+.photo p{
+    margin-bottom: -30px;
+    color: #808080;
+}
+.photo h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.photo img{
+    margin: 50px 0px 0px 50px;
+}
+.contact{
+    background-image: url(../images/Group\ 3.png);
+    background-size: 100% 100%;
+    padding: 30px 130px 50px 130px;
+    border: 1px solid;
+    text-align: center;
+    color: #ffffff;
+}
+.contact h2{
+    font-size: 50px;
+}
+.contact p{
+    color: #ffeded;
+    margin-bottom: 20px;
+}
+.contact .box{
+    width: 350px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.5px solid #ffeded;
+}
+.contact form input[type="checkbox"]{
+    margin-left: -180px;
+    border: 0.5px solid #ffeded;
+    background-color: rgba(0, 0, 0, 0);
+}
+.contact form input[type="submit"]{
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-color: #15A4FA;
+    margin: -20px 0px 0px 271px;
+}
+footer{
+    /* margin: 40px 0px 0px 40px; */
+    /* margin-left: 40px; */
+    /* margin-top: 40px; */
+    position: relative;
+}
+footer p{
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+footer .sm{
+    position: absolute;
+    right: 100px;
+    bottom: 15px;
+}
+footer .sm i{
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #15A4FA;
+}

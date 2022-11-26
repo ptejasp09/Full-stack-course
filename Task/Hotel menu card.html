@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Kalam:wght@300;400;700&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        } 
+        .d1{
+            height: 600px;
+            width: 1400px;
+            margin: 20px auto;
+            border: 1px solid #264796;
+        }
+        h1{
+            color: red;
+            font-size: 60px;
+            font-style: italic;
+            font-family: 'Lobster', cursive;
+        }
+        h2{
+            color: #264796;
+        }
+        h1,h2{
+            background-color: #d3edfc;
+            text-align: center;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        .main{
+            color: orange;
+            font-family: 'Fira Mono', monospace;
+            text-align: center;
+        }
+        li{
+            color: white;
+            font-family: 'Kalam', cursive;
+            font-size: 20px;
+        }
+        #soup, #paratha, #burger, #maggi, #drink, #dessert{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            background-size: 140% 100%;
+            
+            /* margin: 10px 20px; */ 
+        
+        }
+        #soup, #paratha, #burger, #maggi{
+            display: inline-block;
+            margin: 20px 70px;
+        }
+        #drink, #dessert{
+            display: inline-block;
+            margin-left: 230px;
+        }
+        #soup{
+            background-image: url(https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            /* position: relative;
+            top: 20px;
+            left: 100px; */
+        }
+        #paratha{
+            background-image: url(../HTML/Images/dal_paratha_28681_16x9.jpg);
+            /* position: absolute;
+            top: 122px;
+            left: 350px; */
+        }
+        #burger{
+            background-image: url(https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            /* position: absolute;
+            top: 122px;
+            left: 600px; */
+        }
+        #maggi{
+            background-image: url(https://images.pexels.com/photos/7458752/pexels-photo-7458752.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            /* position: absolute;
+            top: 122px;
+            left: 850px; */
+        }
+        #drink{
+            background-image: url(https://images.pexels.com/photos/1194028/pexels-photo-1194028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            /* position: absolute;
+            top: 350px;
+            left: 470px; */
+        }
+        #dessert{
+            background-image: url(https://images.pexels.com/photos/2373520/pexels-photo-2373520.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            /* position: absolute;
+            top: 350px;
+            left: 220px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+    <h1>Hotel Sheetal</h1>
+    <h2>Menu card</h2>
+        <ul>
+            <div id="soup">
+                <li class="main">Soup</li><br>
+                <ol>
+                    <li>Tomato soup</li>
+                    <li>hot and sour soup</li>
+                    <li>mashroom soup</li>
+                    <li>Manchow soup</li>
+                </ol><br>
+            </div>
+
+            <div id="burger">
+                <li class="main">Burger</li><br>
+                    <ol>
+                        <li>veg crispy burger</li>
+                        <li>veg juicy burger</li>
+                        <li>veg schejwan burger</li>
+                        <li>veg tandoori burger</li>
+                    </ol><br>
+            </div>
+
+            <div id="paratha">
+            <li class="main">Paratha</li><br>
+                <ol>
+                    <li>Methi paratha</li>
+                    <li>Aloo paratha</li>
+                    <li>cheese paratha</li>
+                    <li>mix veg paratha</li>
+                </ol><br>
+            </div>
+
+            <div id="maggi">
+            <li class="main">Maggi</li><br>
+            <ol>
+                <li>plain maggi</li>
+                <li>cheese maggi</li>
+                <li>chilly garlic maggi</li>
+                <li>schejwan maggi</li>
+            </ol>
+            </div><br>
+
+            <div id="drink">
+            <li class="main">Cold Drinks</li><br>
+            <ol>
+                <li>Pepsi</li>
+                <li>Sprite</li>
+                <li>Fanta</li>
+                <li>Mirinda</li>
+            </ol><br>
+            </div>
+
+            <div id="dessert">
+            <li class="main">Desserts</li><br>
+            <ol>
+                <li>Cake</li>
+                <li>Donuts</li>
+                <li>Cupcakes</li>
+                <li>pastry</li>
+            </ol>
+            </div>
+        </ul>
+    </div>
+</body>
+</html>

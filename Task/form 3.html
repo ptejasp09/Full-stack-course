@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account opening form</title>
+    <style>
+        h1{
+            color: #0080ff;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        div{
+            width: 600px;
+            border: 2px solid black;
+            margin: 20px auto;
+            /* padding-left: 30px; */
+            /* text-align: center; */
+        }
+        form{
+            padding-left: 30px;
+        }
+        .c1{
+            margin-left: 64px;
+        }
+        .c2{
+            margin-left: 104px;
+        }
+        .c3{
+            margin-left: 23px;
+        }
+        span{
+            color: red;
+        }
+        form input[type="submit"], form input[type="reset"]{
+            padding: 4px;
+        }
+        form input[type="submit"]{
+            margin: 0px auto 10px 190px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Account Opening Form</h1>
+    <form action="" method="post">
+        <label for="">Full Name<span>*</span></label>
+        <select name="" id="">
+            <option value="" disabled selected>Prefix</option>
+            <option value="">Mr.</option>
+            <option value="">Mrs.</option>
+            <option value="">Ms.</option>
+        </select>
+        <input type="text" name="Name" id="" placeholder="First name">
+        <input type="text" name="Name" id="" placeholder="Last name"><br><br>
+        <label for="ac">Account type<span>*</span></label>
+        <select name="" id="">
+            <option value="" disabled selected>Please select</option>
+            <option value="">Saving account</option>
+            <option value="">Current Acoount</option>
+            <option value="">Salary account</option>
+            <option value="">Fixed deposit account</option>
+            <option value="">Recurring deposite account</option>
+        </select><br><br>
+        <label for="id">ID Card Number<span>*</span></label>
+        <input type="text" name="ID Card Number" id="id" placeholder="ex. 1234"><br><br>
+        <label for="m name">Mothers Maiden Name<span>*</span></label>
+        <input type="text" name="Mothes Maiden Name" id="m name"><br><br>
+        <label for="salary">Monthly Salary<span>*</span></label>
+        <input type="text" name="Monthly salary" id="salary"><br><br>
+        <label for="">Gender<span>*</span></label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        <input class="c1" type="radio" name="gender" id="female">
+        <label for="female">Female</label><br><br>
+        <label for="dob">Date Of Birth<span>*</span></label>
+        <input type="date" name="" id="dob"><br><br>
+        <label for="">Marital status<span>*</span> </label>
+        <input type="radio" name="Marital status" id="single">
+        <label for="single">Single</label>
+        <input class="c3" type="radio" name="Marital status" id="married">
+        <label for="married">Married</label><br>
+        <input class="c2" type="radio" name="Marital status" id="divorced">
+        <label for="divorced">Divorced</label>
+        <input type="radio" name="Marital status" id="Widow">
+        <label for="Widow">Widow(er)</label><br><br>
+        <label for="">Phone Number<span>*</span></label>
+        <input type="text" name="Phone Number" id="" placeholder="Country code">
+        <input type="text" name="Phone Number" id="" placeholder="Phone Number"><br><br>
+        <input type="submit" name="" id="" value="submit">
+        <input type="reset" name="" id="" value="reset">
+
+    </form>
+    </div>   
+</body>
+</html>

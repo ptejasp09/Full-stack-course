@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            background-color: red;
+            text-align: center;
+            color: white;
+        }
+        .one{
+            background-color: #cccccb;
+            text-align: center;
+        }
+        #info, span{
+            color: red;
+        }
+        div{
+            width: 400px;
+            border: 2px solid red;
+            /* text-align: center; */
+            margin: 20px auto;
+        }
+        h2,p{
+            text-align: center;
+        }
+        label, textarea{
+            margin-left: 20px;
+        }
+        .c1{
+            margin-left: 132px;
+        }
+        form input[type="submit"], form input[type="reset"]{
+            padding: 4px;
+        }
+        form input[type="submit"]{
+            margin: 0px auto 10px 140px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Job Serach<small>.com</small> </h1><br>
+        <h2>Create Your Account</h2>
+        <p id="info">*Required information</p><br>
+    <form action="" method="post">
+        <h3 class="one">Basic Information</h3><br>
+        <label for="email">Email<span>*</span></label>
+        <input type="text" name="Email" id="email"><br><br>
+        <label for="pass">Password<span>*</span></label>
+        <input type="text" name="password" id="pass"><br><br>
+        <label for="repass">Retype Password<span>*</span></label>
+        <input type="text" name="retype password" id="repass"><br><br>
+        <label for="fname">First name<span>*</span></label>
+        <input type="text" name="First name" id="fname"><br><br>
+        <label for="lname">Last name<span>*</span></label>
+        <input type="text" name="Last name" id="lname"><br><br>
+        <label for="phone">Phone no.<span>*</span></label>
+        <input type="text" name="Phone no." id="phone" placeholder="999-999-9999"><br><br>
+        <label for="add">Address<span>*</span></label>
+        <input type="text" name="Address" id="add"><br><br>
+        <label for="city">City<span>*</span></label>
+        <input type="text" name="City" id="city"><br><br>
+        <label for="">State<span>*</span></label>
+        <select name="" id="">
+            <option value="" disabled selected>Select state</option>
+            <option value="">Maharashtra</option>
+            <option value="">Goa</option>
+            <option value="">Karnataka</option>
+            <option value="">Uttar Pradesh</option>
+            <option value="">Gujrat</option>
+            <option value="">Madhya Pradesh</option>
+        </select><br><br>
+        <label for="country">Country<span>*</span></label>
+        <input type="text" name="Country" id="country"><br><br>
+        <h3 class="one">Education</h3><br>
+        <label for="school">School<span>*</span></label>
+        <input type="text" name="School" id="School"><br><br>
+        <label for="program">Program<span>*</span></label>
+        <input type="text" name="Program" id="program"><br><br>
+        <label for="edu">Education level :</label>
+        <select name="" id="">
+            <option value="" disabled selected>--Select--</option>
+            <option value="">Graduate</option>
+            <option value="">Post Graduate</option>
+            <option value="">Under Graduate</option>
+        </select><br><br>
+        <label for="">Education Status</label>
+        <input type="radio" name="Education Status" id="gra">
+        <label for="gra">Graduated</label><br>
+        <input class="c1" type="radio" name="Education Status" id="enroll">
+        <label for="enroll">Current enrolled</label><br>
+        <input class="c1" type="radio" name="Education Status" id="notgradu">
+        <label for="notgradu">Did not graduate</label><br><br>
+        <label for="grad date">Graduation Date</label>
+        <input type="text" name="Graduation Date" id="grad date"><br><br>
+        <h3 class="one">Work Experience</h3><br>
+        <label for="empl">Emloyer :</label>
+        <input type="text" name="Emloyer" id="empl"><br><br>
+        <label for="j title">Job Title :</label>
+        <input type="text" name="Job Title" id="j title"><br><br>
+        <label for="j duty">Job Duty :</label><br>
+        <textarea name="Job Duty" id="j duty" cols="30" rows="4"></textarea><br><br>
+        <label for="w year">Worked Year :</label>
+        <input type="text" name="Worked year" id="w year"><br><br>
+        <h3 class="one">Attachments</h3><br>
+        <label for="attach">Attachments :</label>
+        <input type="file" name="Attachments" id="attach" accept=".jpg,.png,.pdf"><br><br> 
+        <input type="submit" name="" id="" value="submit">
+        <input type="Reset" name="" id="" value="reset">
+    </form>
+    </div>
+
+</body>
+</html>

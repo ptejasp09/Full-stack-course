@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1,form{
+            background-color: #add9e6;
+        }
+        h1{
+            text-align: center;
+            color: #ff0000;
+            padding: 10px 0px 20px 0px;
+        }
+        div{
+            width: 400px;
+            border: 2px solid red;
+            /* text-align: center; */
+            margin: 20px auto;
+        }
+        form{
+            padding-left: 15px;
+        }
+        form input[type="submit"], form input[type="reset"]{
+            padding: 4px;
+        }
+        form input[type="submit"]{
+            margin: 0px auto 10px 120px;
+        }
+        .c1{
+            margin-left: 59px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Student Registration Form</h1>
+    <form action="" method="post">
+        <label for="name">Firstname :</label>
+        <input type="text" name="First name" id="name" placeholder="Enter your first name"><br><br>
+        <label for="m name">Middlename :</label>
+        <input type="text" name="Middle name" id="m name" placeholder="Enter your Middle name"><br><br>
+        <label for="l name">Lastname :</label>
+        <input type="text" name="Last name" id="l name" placeholder="Enter your Last name"><br><br>
+        <label for="">Select cource</label>
+        <select name="" id="">
+            <option value="" disabled selected>Select Course</option>
+            <option value="">BE ENTC</option>
+            <option value="">BE COMPUTER</option>
+            <option value="">BE MECHANICAL</option>
+            <option value="">BE IT</option>
+        </select><br><br>
+        <label for="">Gender :</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        <input class="c1" type="radio" name="gender" id="female">
+        <label for="female">Female</label><br><br>
+        <label for="phone">Phone :</label>
+        <input type="tel" name="" id="phone" placeholder="Enter your phone no."><br><br>
+        <label for="add">Current Address :</label><br>
+        <textarea name="Address" id="add" cols="30" rows="5" placeholder="Current address"></textarea><br><br>
+        <label for="email">Email :</label>
+        <input type="email" name="Email" id="email" placeholder="Email id"><br><br>
+        <label for="pass">Password :</label>
+        <input type="password" name="Password" id="pass" placeholder="Enter password"><br><br>
+        <label for="repass">Re-type Password :</label>
+        <input type="password" name="Re-type Password" id="repass" placeholder="Retype password"><br><br>
+        <input type="submit" name="" id="" value="submit">
+        <input type="reset" name="" id="" value="reset">
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px, 0px;
+            background-color: green;
+        }
+        div{
+            height: 350px;
+            background-color: rgb(94, 23, 23);
+            /* position: relative; */
+            margin: 200px 0px;
+        }
+        .stump{
+            /* position: absolute; */
+            right: 60px;
+            top: 200px;
+            background-color: rgba(0,0,0,0);
+        }
+        .ball{
+            transform: translate(-100px, 0px);
+            animation: cricket 4s 1;
+            background-color: rgba(0,0,0,0);
+            /* z-index: 1; */
+        }
+        .stump{
+            transform:translate(1350px, -600px) rotateZ(0deg);
+            /* animation: stump 4s infinite; */
+            animation: wicket 1s 1 3s;
+            /* animation-delay: 4s; */
+        }
+        @keyframes cricket{
+            0%{
+                transform: translate(-100px, 0px);
+            }
+            50%{
+                transform: translate(1000px, 430px);
+            }
+            100%{
+                transform: translate(1400px, 300px);
+            }
+        }
+        @keyframes wicket{
+            from{
+                transform: translate(1350px, -600px) rotateZ(0deg);
+            }
+            to{
+                transform:translate(1350px, -600px) rotateZ(15deg);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="ball" src="images/cotton-legging-500x500-removebg-preview.png" alt="Image not found" width="60px" height="35px">
+    <div></div>
+    <img class="stump" src="images/Stump-removebg-preview.png" alt="Image not found" height="300px">
+</body>
+</html>
