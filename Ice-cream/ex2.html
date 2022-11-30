@@ -6,102 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .s3{
-    padding: 50px 20px;
-    background-color: #F3F6FF;
+        .s2{
+            display: flex;
+            justify-content: center;
+            align-items:baseline;
+        }
+        .s2 .vdo, .chocolate{
+            width: 48%;
+            /* align-items: stretch; */
+        }
+       .s2 .image{
+    background-image: url(images/promotion.jpg);
+    background-size: 180% 100%;
+    background-position:40% 100% ;
+    padding: 250px 0px;
     width: 100%;
-}
-.s3 .border{
-    width: 75px;
-    padding: 0px 8px;
-    border-top: 2px solid #F195B2;
-    border-bottom: 2px solid #F195B2;
-    background-color: #62C3E7;
-}
-.parent{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
 }
-.s3 .service{
-    width: 100%;
-    text-align: center;
-    margin-top: 120px;
-    /* position: relative; */
+/* .s2 .vdo{
+    align-items: stretch;
+
+} */
+.s2 .fa-play{
+    padding: 20px 22px;
+    z-index: 1;
+    background-color: #ffffff;
+    color: #F195B2;
+    font-size: 25px;
+    border-radius: 100%;
+    margin: 0px auto;
 }
-.s3 .service .ser1{
-    background-color: white;
-    /* margin: 100px 20px 200px 20px; */
-    padding: 100px 10px 10px 10px;
-    /* z-index: 1; */
-}
-.s3 .pinkc{
-    width: 165px;
-    height: 165px;
+.s2 .chocolate{
     background-color: #F195B2;
-    border: 10px solid #F195B2;
-    border-radius: 100%;
-    margin: -170px auto 0px auto;
-    /* z-index: 2; */
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 40px;
 }
-.s3 .service img{
-    border: 15px solid #7b3030;
+.s2 .chocolate .price{
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
     border-radius: 100%;
-    /* position: absolute; */
-    /* z-index: 3; */
+    padding: 25px 0px;
+    color: #62C3E7;
+    margin: 0px auto;
 }
-.pinkimage{
-    margin: -440px 0px 70px 0px;
-    padding: 100px 0px;
+.s2 .chocolate .price h3{
+    font-size: 25px;
+}
+.s2 .chocolate h2{
+    margin: 10px 0px;
+}
+.s2 .chocolate p{
+    margin-bottom: 20px;
+}
+.s2 .chocolate a{
+    padding: 8px 18px;
+    background-color: #62C3E7;
+    border-radius: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
 }
     </style>
 </head>
 <body>
-    
-</body>
-</html>
-
-<div class="s3">
-    <div class="border"></div>
-    <h2>Best Services We Provide For Our Clients</h2>
-    <div class="parent">
-        <div class="service">
-            <div class="ser1">
-                <h3>Quality Maintain</h3>
-                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div class="pinkimage">
-                <img src="images/service-1.jpg" alt="Image not found">
-                <div class="pinkc"></div>
-            </div>
-        </div>
-
-        <div class="service">
-            <div class="ser1">
-                <h3>Quality Maintain</h3>
-                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div class="pinkimage">
-                <img src="images/service-1.jpg" alt="Image not found">
-                <div class="pinkc"></div>
-            </div>
-        </div>
-
-        <div class="service">
-            <div class="ser1">
-                <h3>Quality Maintain</h3>
-                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo.</p>
-                <a href="#">Learn more</a>
-            </div>
-                <div class="pinkimage">
-                <img src="images/service-1.jpg" alt="Image not found">
-                <div class="pinkc"></div>
-            </div>
+    <div class="s2">
+        <div class="vdo">
+        <div class="image">
+            <i class="fas fa-play"></i> 
         </div>
     </div>
-    
-</div><!--End of s3-->
-
+    <!-- <div class="vdo vdo1"> -->
+        <div class="chocolate">
+            <div class="price">
+                <h3>$199</h3>
+            </div>
+            <h2>Chocolate Ice Cream</h2>
+            <p>Lorem justo clita dolor ipsum ut sed eos, ipsum et dolor kasd sit eajusto. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
+            <a href="#">Order Now</a>
+        </div> 
+    <!-- </div>  -->
+    </div><!--End of s2-->
+</body>
+</html>

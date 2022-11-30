@@ -55,6 +55,32 @@
     margin: -440px 0px 70px 0px;
     padding: 100px 0px;
 }
+.pinkimage img:hover{
+    transform: translate(0px, 0px) rotateZ(0deg);
+            animation: anim 2s 1;
+}
+@keyframes anim{
+    from{
+            transform: translate(0px, 0px) rotateZ(0deg);
+        }
+        to{
+            transform: translate(0px, 0px) rotateZ(360deg);
+        }
+    }
+    .pinkimage img::after{
+        transform: translate(0px, 0px) rotateZ(0deg);
+            animation: anim1 2s 1;
+    }       
+    @keyframes anim1{
+    from{
+            transform: translate(0px, 0px) rotateZ(0deg);
+        }
+        to{
+            transform: translate(0px, 0px) rotateZ(-360deg);
+            /* background-color: yellow; */
+            /* border-radius: 100%; */
+        }
+    }
     </style>
 </head>
 <body>
